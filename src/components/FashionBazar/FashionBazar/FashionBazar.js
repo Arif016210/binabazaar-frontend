@@ -3,14 +3,16 @@ import '../../MainCSS/MainCSS.css';
 import BazerLocation from '../../Home/BazerLocation/BazerLocation';
 import Footer from '../../Home/Footer/Footer';
 import Header from '../../Home/Header/Header';
-import MainFeatures from '../../Home/MainFeatures/MainFeatures';
 import Pay from '../../Home/Pay/Pay';
 import FashionBazarSection from '../FashionBazarSection/FashionBazarSection';
+import FashionSearchBar from '../FashionSearchBar/FashionSearchBar';
+import MainFeatures from '../MainFeatures/MainFeatures';
 
 const FashionBazar = () => {
     return (
-        <div>
+        <div className="fashion">
             <Header></Header>
+            <FashionSearchBar></FashionSearchBar>
             <MainFeatures></MainFeatures>
             <BazerLocation></BazerLocation>
             <FashionBazarSection></FashionBazarSection>

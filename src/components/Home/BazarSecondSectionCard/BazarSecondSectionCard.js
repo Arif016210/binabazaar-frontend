@@ -7,7 +7,7 @@ const BazarSecondSectionCard = (props) => {
             <div class="card card-container mt-3 ">
                 <img src={img} class="card-img-top " alt="..." />
                 <div class="card-body">
-                    <h3> {name} </h3>
+                    <h4> {name} </h4>
                 </div>
             </div>
         </div>

@@ -5,6 +5,8 @@ import img2 from '../../../img/Screenshot_2.png';
 import img3 from '../../../img/Screenshot_3.png';
 import img4 from '../../../img/Screenshot_4.png';
 import img5 from '../../../img/Screenshot_5.png';
+import Slider from '../Slider/Slider';
+import CustomerSupport from '../CustomerSupport/CustomerSupport';
 
 const MainFeatures = () => {
     return (
@@ -35,11 +37,20 @@ const MainFeatures = () => {
                                     <li className="nav-item">
                                         <a className="nav-link" href="/fashionBazaar">Fashion Bazaar</a>
                                     </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="/fashionBazaar">Demo Bazaar</a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="/fashionBazaar">Demo Bazaar</a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a className="nav-link" href="/fashionBazaar">Demo Bazaar</a>
+                                    </li>
                                 </ul>
                             </div>
                         </nav>
                     </div>
-                    <div className="col-md-3">
+                    {/* <div className="col-md-3">
                         <div className="row">
                             <div className="col-md-12">
                                 <img src={img2} alt="" />
@@ -58,6 +69,27 @@ const MainFeatures = () => {
                         </div>
                         <div className="col-md-12 mt-3">
                             <img src={img5} alt="" />
+                        </div>
+                    </div> */}
+                    <div className="col-md-7">
+                        <div className="row">
+
+                            <div className="col-md-12">
+                                <Slider></Slider>
+
+                            </div>
+                            <div className="row">
+                                <CustomerSupport />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-2 right-bar">
+                        <div className="col-md-12 image-box">
+                            <img src={img4} alt="" />
+                        </div>
+                        <div className="col-md-12 image-box">
+                            <img src={img4} alt="" />
                         </div>
                     </div>
                 </div>

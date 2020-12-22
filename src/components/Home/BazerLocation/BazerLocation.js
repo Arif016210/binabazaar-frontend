@@ -5,7 +5,7 @@ const BazerLocation = () => {
         <div className="bazerLocation">
             {/* <div className="container"> */}
             <div className="localBazer">
-                <h1> Local Bazer </h1>
+                <h3> Local Bazer </h3>
             </div>
             <div className="row location">
                 <div className="col-md-3">

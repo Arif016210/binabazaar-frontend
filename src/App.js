@@ -9,6 +9,9 @@ import NotFount from './components/NotFound/NotFount';
 import KrishiBazaar from './components/KrishiBazaar/KrishiBazaar/KrishiBazaar';
 import MudiBazar from './components/MudiBazar/MudiBazar/MudiBazar';
 import FashionBazar from './components/FashionBazar/FashionBazar/FashionBazar';
+import ProductDetails from './components/ProductDetails/ProductDetails/ProductDetails';
+import Login from './components/Login/Login/Login';
+import Registration from './components/Registration/Registration/Registration';
 
 function App() {
   return (
@@ -28,6 +31,15 @@ function App() {
         </Route>
         <Route path="/fashionBazaar">
           <FashionBazar></FashionBazar>
+        </Route>
+        <Route path="/singleProduct/:areaId">
+          <ProductDetails></ProductDetails>
+        </Route>
+        <Route path="/login">
+          <Login></Login>
+        </Route>
+        <Route path="/registration">
+          <Registration></Registration>
         </Route>
         <Route path="*">
           <NotFount></NotFount>

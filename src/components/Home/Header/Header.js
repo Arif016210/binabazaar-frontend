@@ -13,7 +13,8 @@ const Header = () => {
                         <marquee width="40%" direction="left" height="30%">
                             <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, adipisci.</small>
                         </marquee>
-                        <small> <i className="fa fa-user" aria-hidden="true"></i> Registration Now</small>
+
+                        <a className="text-white" href="/login"><small> <i className="fa fa-user" aria-hidden="true"></i> Registration Now</small></a>
                     </div>
                 </div>
             </div>
