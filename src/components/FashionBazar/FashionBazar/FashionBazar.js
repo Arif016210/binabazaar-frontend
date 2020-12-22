@@ -1,25 +1,23 @@
 import React from 'react';
+import '../../MainCSS/MainCSS.css';
 import BazerLocation from '../../Home/BazerLocation/BazerLocation';
 import Footer from '../../Home/Footer/Footer';
 import Header from '../../Home/Header/Header';
 import MainFeatures from '../../Home/MainFeatures/MainFeatures';
 import Pay from '../../Home/Pay/Pay';
-import '../../MainCSS/MainCSS.css';
-import KrishiBazarSection from '../KrishiBazarSection/KrishiBazarSection';
+import FashionBazarSection from '../FashionBazarSection/FashionBazarSection';
 
-
-
-const KrishiBazaar = () => {
+const FashionBazar = () => {
     return (
         <div>
             <Header></Header>
             <MainFeatures></MainFeatures>
             <BazerLocation></BazerLocation>
-            <KrishiBazarSection></KrishiBazarSection>
+            <FashionBazarSection></FashionBazarSection>
             <Footer></Footer>
             <Pay></Pay>
         </div>
     );
 };
 
-export default KrishiBazaar;
+export default FashionBazar;

@@ -5,21 +5,19 @@ import Header from '../../Home/Header/Header';
 import MainFeatures from '../../Home/MainFeatures/MainFeatures';
 import Pay from '../../Home/Pay/Pay';
 import '../../MainCSS/MainCSS.css';
-import KrishiBazarSection from '../KrishiBazarSection/KrishiBazarSection';
+import MudiBazarSection from '../MudiBazarSection/MudiBazarSection';
 
-
-
-const KrishiBazaar = () => {
+const MudiBazar = () => {
     return (
         <div>
             <Header></Header>
             <MainFeatures></MainFeatures>
             <BazerLocation></BazerLocation>
-            <KrishiBazarSection></KrishiBazarSection>
+            <MudiBazarSection></MudiBazarSection>
             <Footer></Footer>
             <Pay></Pay>
         </div>
     );
 };
 
-export default KrishiBazaar;
+export default MudiBazar;

@@ -3,7 +3,17 @@
 body {
     background-color:#F6F6F6;
 }
-
+.seeAll{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.seeAll a:hover{
+    text-decoration: none;
+    color:red;
+}
+.card img{
+    height: 245px;
+}
 .collectionCart i{
     padding-left:10px;
     color:#fff;
@@ -12,6 +22,7 @@ body {
     margin:2%;
     box-shadow: 5px 5px 5px grey;
     transition: all 0.3s linear;
+    text-align: center;
 }
 .card-container:hover{
     box-shadow: 15px 15px 15px grey
@@ -73,6 +84,13 @@ body {
 }
 
 /* Main Features Section End  */
+
+
+
+/* Home */
+
+
+
 
 /* Bazer Location Section start */
 
@@ -151,5 +169,89 @@ body {
     box-shadow: 0px 3px 4px 0px grey;
     margin-bottom: 20px;
 }
+
+
+
+/* KrishiBazaar */
+
+
+
+/* Bazer Location Section start */
+
+/* .bazerLocation{
+    padding:40px 0px;
+}
+.bazerLocation .localBazer{
+    padding-left: 40px;
+}
+.bazerLocation select{
+    width: 100%;
+    font-size: 30px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0px 2px 12px 2px grey;
+}
+.bazerLocation .location{
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px -3px grey;
+    margin: 25px 0px;
+
+}
+.bazerLocation button{
+    background-color: green;
+    color: #fff;
+    padding: 10px 40px;
+    font-size: 25px;
+} */
+
+/* Bazer Location Section End */
+
+
+/* Bazer Section Start  */
+
+/* First */
+
+/* .bazarFirstSection{
+    background-color:#fff;
+    padding: 0px 0px 50px 0px;
+    margin: 0px 0px 40px 0px;
+}
+.bazarFirstSection .navbar-light .navbar-nav .nav-link {
+    font-size: 20px;
+    color: black;
+    transition: all 0.5s linear;
+}
+.bazarFirstSection .navbar-light .navbar-nav .nav-link:hover {
+    color: red;
+}
+
+.bazarFirstSection nav{
+    padding: 20px 70px;
+    box-shadow: 0px 3px 4px 0px grey;
+    margin-bottom: 20px;
+} */
+
+/* Secound */
+
+/* .bazarSecondSection{
+    background-color:#fff;
+    padding: 0px 0px 50px 0px;
+    margin: 0px 0px 40px 0px;
+}
+.bazarSecondSection .navbar-light .navbar-nav .nav-link {
+    font-size: 20px;
+    color: black;
+    transition: all 0.5s linear;
+}
+.bazarSecondSection .navbar-light .navbar-nav .nav-link:hover {
+    color: red;
+}
+
+.bazarSecondSection nav{
+    padding: 20px 70px;
+    box-shadow: 0px 3px 4px 0px grey;
+    margin-bottom: 20px;
+} */
 
 

@@ -1,16 +1,12 @@
 import React, { useState } from 'react';
 import '../../MainCSS/MainCSS.css';
 import fakeData from '../../../fakeData/krishi';
-import BazarFirstSectionCard from '../BazarFirstSectionCard/BazarFirstSectionCard';
+import KrishiBazarSectionCard from '../KrishiBazarSectionCard/KrishiBazarSectionCard';
 
-const BazarFirstSection = () => {
-
-    const bazer = fakeData.slice(0, 4);
+const KrishiBazarSection = () => {
+    const bazer = fakeData;
     const [cart, setCart] = useState(bazer);
     console.log(cart);
-
-
-
     return (
         <div className="bazarFirstSection">
             <nav class="navbar navbar-expand-lg navbar-light ">
@@ -42,18 +38,16 @@ const BazarFirstSection = () => {
             </nav>
             <div className="container">
 
-
                 <div className="row">
                     {
-                        cart.map(cart => <BazarFirstSectionCard cart={cart} ></BazarFirstSectionCard>)
+                        cart.map(cart => <KrishiBazarSectionCard cart={cart} ></KrishiBazarSectionCard>)
                     }
-                    <div className="seeAll ml-auto">
-                        <a href="/krishiBazaar">See All...</a>
-                    </div>
+
                 </div>
+
             </div>
         </div>
     );
 };
 
-export default BazarFirstSection;
+export default KrishiBazarSection;

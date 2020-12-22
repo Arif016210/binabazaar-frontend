@@ -7,6 +7,8 @@ import {
 import Home from './components/Home/Home/Home';
 import NotFount from './components/NotFound/NotFount';
 import KrishiBazaar from './components/KrishiBazaar/KrishiBazaar/KrishiBazaar';
+import MudiBazar from './components/MudiBazar/MudiBazar/MudiBazar';
+import FashionBazar from './components/FashionBazar/FashionBazar/FashionBazar';
 
 function App() {
   return (
@@ -20,6 +22,12 @@ function App() {
         </Route>
         <Route path="/krishiBazaar">
           <KrishiBazaar></KrishiBazaar>
+        </Route>
+        <Route path="/mudiBazaar">
+          <MudiBazar></MudiBazar>
+        </Route>
+        <Route path="/fashionBazaar">
+          <FashionBazar></FashionBazar>
         </Route>
         <Route path="*">
           <NotFount></NotFount>

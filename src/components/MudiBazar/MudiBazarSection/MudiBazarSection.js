@@ -1,20 +1,15 @@
 import React, { useState } from 'react';
-import '../../MainCSS/MainCSS.css';
-import fakeData from '../../../fakeData/krishi';
-import BazarFirstSectionCard from '../BazarFirstSectionCard/BazarFirstSectionCard';
+import fakeData from '../../../fakeData/mudi';
+import MudiBazarSectionCard from '../MudiBazarSectionCard/MudiBazarSectionCard';
 
-const BazarFirstSection = () => {
-
-    const bazer = fakeData.slice(0, 4);
+const MudiBazarSection = () => {
+    const bazer = fakeData;
     const [cart, setCart] = useState(bazer);
     console.log(cart);
-
-
-
     return (
         <div className="bazarFirstSection">
             <nav class="navbar navbar-expand-lg navbar-light ">
-                <a class="navbar-brand" href="#"><h2>Krishi bazaar</h2></a>
+                <a class="navbar-brand" href="#"><h2>Mudi bazaar</h2></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -25,16 +20,16 @@ const BazarFirstSection = () => {
                             <a class="nav-link" href="#">Rice <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Vegetable</a>
+                            <a class="nav-link" href="#">Oil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Fruits</a>
+                            <a class="nav-link" href="#">Moida</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Fish</a>
+                            <a class="nav-link" href="#">Sugar</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Meat</a>
+                            <a class="nav-link" href="#">Milk</a>
                         </li>
                     </ul>
 
@@ -42,18 +37,16 @@ const BazarFirstSection = () => {
             </nav>
             <div className="container">
 
-
                 <div className="row">
                     {
-                        cart.map(cart => <BazarFirstSectionCard cart={cart} ></BazarFirstSectionCard>)
+                        cart.map(cart => <MudiBazarSectionCard cart={cart} ></MudiBazarSectionCard>)
                     }
-                    <div className="seeAll ml-auto">
-                        <a href="/krishiBazaar">See All...</a>
-                    </div>
+
                 </div>
+
             </div>
         </div>
     );
 };
 
-export default BazarFirstSection;
+export default MudiBazarSection;

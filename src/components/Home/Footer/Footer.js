@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../../../img/Screenshot_6.png';
+import logo from '../../../img/Screenshot_15.png';
 import facebook from '../../../img/Screenshot_11.png';
 
 const Footer = () => {

@@ -2,6 +2,7 @@ import React from 'react';
 import '../../MainCSS/MainCSS.css';
 import BazarFirstSection from '../BazarFirstSection/BazarFirstSection';
 import BazarSecondSection from '../BazarSecondSection/BazarSecondSection';
+import BazarThirdSection from '../BazarThirdSection/BazarThirdSection';
 import BazerLocation from '../BazerLocation/BazerLocation';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
@@ -10,12 +11,13 @@ import Pay from '../Pay/Pay';
 
 const Home = () => {
     return (
-        <div>
+        <div className="home">
             <Header></Header>
             <MainFeatures></MainFeatures>
             <BazerLocation></BazerLocation>
             <BazarFirstSection></BazarFirstSection>
             <BazarSecondSection></BazarSecondSection>
+            <BazarThirdSection></BazarThirdSection>
             <Footer></Footer>
             <Pay></Pay>
         </div>

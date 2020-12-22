@@ -10,26 +10,26 @@ const BazerLocation = () => {
             <div className="row location">
                 <div className="col-md-3">
                     <select >
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saab</option>
-                        <option value="opel">Opel</option>
-                        <option value="audi">Audi</option>
+                        <option value="volvo">Division</option>
+                        <option value="saab">Dhaka</option>
+                        <option value="opel">Chittagong</option>
+                        <option value="audi">Sylhet</option>
                     </select>
                 </div>
                 <div className="col-md-3">
                     <select >
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saab</option>
-                        <option value="opel">Opel</option>
-                        <option value="audi">Audi</option>
+                        <option value="volvo">District</option>
+                        <option value="saab">Narayanganj</option>
+                        <option value="opel">Gazipur</option>
+                        <option value="audi">Kishoreganj</option>
                     </select>
                 </div>
                 <div className="col-md-3">
                     <select >
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saab</option>
-                        <option value="opel">Opel</option>
-                        <option value="audi">Audi</option>
+                        <option value="volvo">Upazila</option>
+                        <option value="saab">Narayanganj</option>
+                        <option value="opel">Gazipur</option>
+                        <option value="audi">Kishoreganj</option>
                     </select>
                 </div>
                 <div className="col-md-3">
